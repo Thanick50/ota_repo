@@ -1,0 +1,9 @@
+# Changelog
+
+Aug 7, 2026
+
+-Fixed Focus Pen and Focus Pen Pro unresponsiveness after sleep mode by properly initializing via a Bluetooth request.
+
+-Added pen remapping capabilities (e.g., emulate as S-Pen, or emulate Focus Pen Pro as a standard Focus Pen).
+
+-Optimized dynamic refresh rate handling on pen attach/detach (automatically switches to 120Hz when detached, restores 144Hz when attached, and respects adaptive refresh rate settings).
